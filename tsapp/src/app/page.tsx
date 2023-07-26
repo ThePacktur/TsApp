@@ -1,5 +1,6 @@
-import Image from 'next/image'
+//import Image from 'next/image'
 import { Saludo } from './componentes/Saludos'
+import { Formulario } from './componentes/Formulario'
 
 export default function Home() {
   return (
@@ -10,7 +11,9 @@ export default function Home() {
       <Saludo nombre='terricola ' apellido='Omicronianos' />
       <Saludo nombre='monkey' />
 
-     
+     <Formulario></Formulario>
+
+
     </>
   )
 }
